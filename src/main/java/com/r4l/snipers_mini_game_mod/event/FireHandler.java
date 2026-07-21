@@ -24,7 +24,7 @@ public class FireHandler {
 	@SubscribeEvent
 	public void onFireInput(MouseEvent event) {
 		if (event.getButton() == 0 && event.isButtonstate() && Minecraft.getMinecraft().player.getHeldItem(EnumHand.MAIN_HAND).getItem() == ItemManager.FRF2 && RECOIL == 0) {
-			RECOIL = 30;
+			RECOIL = 40;
 			NetworkHandler.channel.sendToServer(new FireMessage());
 		}
 	}
