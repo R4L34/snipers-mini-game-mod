@@ -22,6 +22,7 @@ public class NetworkHandler {
 		channel.registerMessage(FireMessage.Handler.class, FireMessage.class, i++, Side.SERVER);
 		channel.registerMessage(HitMessage.Handler.class, HitMessage.class, i++, Side.CLIENT);
 		channel.registerMessage(ShootSoundMessage.Handler.class, ShootSoundMessage.class, i++, Side.CLIENT);
+		channel.registerMessage(ShootSoundMessage.Handler.class, ShootSoundMessage.class, i++, Side.CLIENT);
 	}
 
 	public static IThreadListener getThreadListener(MessageContext ctx) {

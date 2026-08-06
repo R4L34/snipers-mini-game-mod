@@ -3,6 +3,7 @@ package com.r4l.snipers_mini_game_mod;
 
 import com.r4l.snipers_mini_game_mod.event.RegisterHandler;
 import com.r4l.snipers_mini_game_mod.event.server.WeaponHandler;
+import com.r4l.snipers_mini_game_mod.settings.event.SaveDataInitHandler;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -15,6 +16,7 @@ public class CommonProxy {
 		MinecraftForge.EVENT_BUS.register(new RegisterHandler());
 		MinecraftForge.EVENT_BUS.register(new Sounds());
 		MinecraftForge.EVENT_BUS.register(new WeaponHandler());
+		//MinecraftForge.EVENT_BUS.register(new SaveDataInitHandler());
 	}
 	
 

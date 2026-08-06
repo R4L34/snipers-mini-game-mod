@@ -9,9 +9,7 @@ import com.r4l.snipers_mini_game_mod.network.message.ShootSoundMessage;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockGlass;
-import net.minecraft.block.BlockLadder;
 import net.minecraft.block.BlockPane;
-import net.minecraft.block.BlockSign;
 import net.minecraft.block.BlockStainedGlass;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -22,7 +20,6 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
