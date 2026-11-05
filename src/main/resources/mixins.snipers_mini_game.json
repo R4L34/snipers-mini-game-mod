@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.r4l.snipers_mini_game.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "snipers_mini_game.refmap.json",
+  "client": [
+    "GlowingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

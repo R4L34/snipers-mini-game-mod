@@ -1,0 +1,15 @@
+{
+  "frf2shoot": {
+    "category": "master",
+    "sounds": ["snipers_mini_game:frf2shoot"]
+  },
+  "frf2reload": {
+    "category": "master",
+    "sounds": ["snipers_mini_game:frf2reload"]
+  },
+  
+  "csgo_dind": {
+      "category": "master",
+      "sounds": ["snipers_mini_game:csgo_dind"]
+  }
+}
